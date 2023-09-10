@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <title>Backup de dados</title>
+  </head>
+  <body>
+    <button class="btn btn-primary" onclick="window.location.href = 'index.html';">Voltar para a Página Inicial</button>
+    <h1>Detalhes do serviço</h1>
+    <p>O serviço de backup é feito com a solicitação para o cliente de quais dados ele deseja armazenar para que tenha um local de "recuperação" desses dados caso haja alguma modificação no aparelho, como por exemplo, ao ser feito a formatação é altamente indicado que seja feito um backup junto para que os arquivos pessoais que o cliente deseja que sejam guardados ou se mantenham na máquina após a formatação, funciona como uma espécie de nuvem de armazenamento digital.</p>
+    <p>Este serviço leva em torno de 2 dias para sem concluído e seu computador deve permanecer conosco até a conclusão do trabalho.</p>
+    <p>Nosso horário de atendimento é de segunda a sexta-feira das 07:30 às 18:00 e aos sábados atendemos também a partir das 08:00 às 14:00.</p>
+    <h1>Para que serve o backup</h1>
+    <p>O backup auxila no armazenamento de dados, seja fotos, vídeos, aplicativos, imagens, documentos, arquivos, qualquer coisa que deseja ser guardada em outra área para recuperação posterior sem que haja risco de corromper ou perder algum dado.</p>
+    <h1>Valores</h1>
+    <p>Este serviço tem custo de R$25,00 e também pode ser feito um orçamento, mas atualmente estamos com algumas promoções imperdíveis como:  
+        <li>50% off na formatação</li>
+        <li>Dia mundial do backup</li>
+        <li>Formatação + limpeza + backup</li>
+        <ul>Para mais informações acompanhe as imagens na janela inicial do site.</ul>
+    </p>
+    
+    <div class="container">
+            <div class="row">
+                <div class="col">
+                    <img src="Imagens/servico2_1_resized.jfif" class="img-fluid" alt="Imagem 1">
+                </div>
+                <div class="col">
+                    <img src="Imagens/servico2_2_resized.jpeg" class="img-fluid" alt="Imagem 2">
+                </div>
+            </div>
+        </div>
+    
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <iframe width="700" height="400" src="https://www.youtube.com/embed/kSRIGoKRtFM" frameborder="0" allowfullscreen style="border-top: 2px solid; padding-top: 20px;"></iframe>
+                    </div>
+                </div>
+            </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <!-- Botão Orçamento -->
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+                        Solicitar Orçamento
+                    </button>
+                </div>
+            </div>
+        </div>
+    
+        <!-- Modal -->
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title" id="myModalLabel">Solicitar Orçamento</h4>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <!-- Formulário de Orçamento -->
+                        <form>
+                            <div class="form-group">
+                                <label for="nome">Nome:</label>
+                                <input type="text" class="form-control" id="nome" placeholder="Seu Nome">
+                            </div>
+                            <div class="form-group">
+                                <label for="email">E-mail:</label>
+                                <input type="email" class="form-control" id="email" placeholder="Seu E-mail">
+                            </div>
+                            <div class="form-group">
+                                <label for="telefone">Telefone:</label>
+                                <input type="tel" class="form-control" id="telefone" placeholder="Seu telefone">
+                            </div>
+                            <div class="form-group">
+                                <label for="endereço">Endereço:</label>
+                                <input type="text" class="form-control" id="telefone" placeholder="Seu endereço">
+                            </div>
+                            <div class="form-group">
+                                <label for="cidade">Cidade:</label>
+                                <input type="text" class="form-control" id="telefone" placeholder="Sua cidade">
+                            </div>
+                            <div class="form-group">
+                                <label for="estado">Estado:</label>
+                                <input type="text" class="form-control" id="telefone" placeholder="Seu estado">
+                            </div>
+                            <div class="form-group">
+                                <label for="data">Data:</label>
+                                <input type="date" class="form-control" id="telefone" placeholder="Data do serviço">
+                            </div>
+                            <div class="form-group">
+                                <label for="observacoes">Observações:</label>
+                                <textarea class="form-control" id="observacoes" rows="4" placeholder="Suas Observações"></textarea>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                        <button type="button" class="btn btn-primary" style="border-bottom: 2px solid #000;">Enviar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>    
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>

@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+    <title>ArchTech</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+</head>
+<body>
+    <header>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <a class="navbar-brand" href="#">ArchTech</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#servicos">Serviços</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#profissional-empresa">Sobre</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contato">Contato</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#depoimentos">Depoimentos</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Carrossel -->
+    <div id="carrossel" class="carousel slide custom-carousel" data-bs-ride="carousel">
+        <style>
+            #carrossel {
+                max-width: 50%;
+                margin: 0 auto;
+                max-height: 400px;
+            }
+        </style>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="Imagens/formatacaopromocao.png" class="d-block w-100" alt="Imagem 1">
+                <div class="carousel-caption d-none d-md-block">
+                    <h3>Formatação de computador</h3>
+                    <p>Promoção Especial 50% off</p>
+                    <p>De R$80,00 para R$40,00</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="Imagens/diamundialbackup.webp" class="d-block w-100" alt="Imagem 2">
+                <div class="carousel-caption d-none d-md-block">
+                    <h3>Backup</h3>
+                    <p>Desconto Imperdível</p>
+                    <p>Na compra do serviço de formatação, leve o serviço backup grátis!!</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="Imagens/combo2_resized.jpg" class="d-block w-100" alt="Imagem 3">
+                <div class="carousel-caption d-none d-md-block">
+                    <h3></h3>
+                    <p></p>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carrossel" role="button" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carrossel" role="button" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </a>
+    </div>
+    
+    
+        <!-- Catálogo de Serviços -->
+    <section id="servicos" class="py-5-lg-4">
+        <div class="container">
+            <h2 class="text-center mb-4">Nossos Serviços</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <img src="Imagens/Formatação Promoção.png" class="card-img-top" alt="Serviço 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Formatação</h5>
+                            <p class="card-text">Formatamos seu computador de maneira rápida e segura.</p>
+                            <a href="servico1.html" class="btn btn-primary">Solicitar Orçamento</a>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <img src="Imagens/backup.webp" class="card-img-top" alt="Serviço 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Backup de dados</h5>
+                            <p class="card-text">Salvamos seus dados desejados para que não os perca em alguma mudança.</p>
+                            <a href="servico2.html" class="btn btn-primary">Solicitar Orçamento</a>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <img src="Imagens/virus.jpg" class="card-img-top" alt="Serviço 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Proteção contra vírus e ataques virtuais</h5>
+                            <p class="card-text">Protegemos o seu computador de links maliciosos ou dowloads que possuam malware.</p>
+                            <a href="servico3.html" class="btn btn-primary">Solicitar Orçamento</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+        <!-- Seção do Profissional ou da Empresa -->
+        <section id="profissional-empresa" class="py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <!-- Nome do Profissional ou da Empresa -->
+                        <h2>Empresa ArchTech</h2>
+                        <!-- Texto sobre a história -->
+                        <p>
+                            A empresa está atuando no mercado desde o ano de 2015, e conta com grandes profissionais altamente capacitados em ajudar os nossos clientes com tudo o que eles precisarem.
+                        </p>
+                        <p>Temos buscado cada dia mais aprimorar nossos serviços e agir de acordo com a necessidade de cada cliente, buscando não só aprimorar nossas capacidades técnicas, mas também as habilidades de comunicação e trabalho em equipe são valores indispensáveis para nosso time.</p>
+                        <!-- Endereço da Empresa -->
+                        <address>
+                            <strong>Endereço:</strong><br>
+                            Rua Clevelândia, 34D<br>
+                            Bairro: Centro<br>
+                            CEP: 89802-410<br>
+                            Cidade: Chapecó<br>
+                            Estado: Santa Catarina
+                        </address>
+                    </div>
+                    <div class="col-md-6">
+                        <!-- Mapa do Google Maps -->
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3551.584129288774!2d-52.616804325190536!3d-27.106405801323536!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94e4b6a118b9e3b1%3A0xc89fb4619e943117!2sR.%20Clevel%C3%A2ndia%2C%2034d%20-%20Centro%2C%20Chapec%C3%B3%20-%20SC%2C%2089802-410!5e0!3m2!1spt-PT!2sbr!4v1694370497983!5m2!1spt-PT!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+        <!-- Outras seções e conteúdo do site -->
+    
+        <!-- Bootstrap JS -->
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+        <section id="contato" class="py-5">
+            <div class="container">
+                <h2 class="text-center mb-4">Contato</h2>
+                <div class="row">
+                    <div class="col-md-6">
+                        <!-- Formulário de Contato -->
+                        <form>
+                            <div class="form-group">
+                                <label for="nome">Nome:</label>
+                                <input type="text" class="form-control" id="nome" placeholder="Seu Nome">
+                            </div>
+                            <div class="form-group">
+                                <label for="email">E-mail:</label>
+                                <input type="email" class="form-control" id="email" placeholder="Seu E-mail">
+                            </div>
+                            <div class="form-group">
+                                <label for="mensagem">Mensagem:</label>
+                                <textarea class="form-control" id="mensagem" rows="4" placeholder="Sua Mensagem"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-6">
+                        <!-- Informações de Contato -->
+                        <h3>Informações de Contato</h3>
+                        <p><strong>Nome da Empresa:</strong> Empresa ArchTech</p>
+                        <p><strong>E-mail da Empresa:</strong> contato@archtech.com</p>
+                        <p><strong>Telefone da Empresa:</strong> (49) 9 9953-9100</p>
+                        <p><strong>WhatsApp:</strong> (49) 9 9953-9100</p>
+                        <a href="https://wa.me/5549999539100" target="_blank" class="btn btn-success">Iniciar Conversa no WhatsApp</a>
+                        <p><strong>Redes Sociais:</strong>
+                            <!--Não tenho essas redes sociais para acrescentar, mas a opção está ali--> 
+                            <a href="#">Facebook</a> | 
+                            <a href="#">Twitter</a> | 
+                            <a href="#">Instagram</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    <!-- Seção de Depoimentos -->
+    <section id="depoimentos" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Depoimentos</h2>
+            <div class="row">
+                <!-- Depoimento 1 -->
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <img src="Imagens/Bruno.jpg" class="card-img-top" alt="Foto do Depoimento 1">
+                        <div class="card-body">
+                            <p class="card-text">Excelente trabalho!! Muito pontuais e seguem os prazos.</p>
+                            <p class="card-text"><strong>Bruno Sonza Almeida</strong></p>
+                        </div>
+                    </div>
+                </div>
+            
+            <!-- Depoimento 2 -->
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="Imagens/Hanna.jpg" class="card-img-top" alt="Foto do Depoimento 2">
+                    <div class="card-body">
+                        <p class="card-text">Muito bonsss, me ajudaram muito com o meu problema de maneira muito eficiente.</p>
+                        <p class="card-text"><strong>Hanna Mansour</strong></p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Depoimento 3 -->
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="Imagens/Sofia.jpg" class="card-img-top" alt="Foto do Depoimento 3">
+                    <div class="card-body">
+                        <p class="card-text">Bom trabalho, porém o atendimento um pouco lento...</p>
+                        <p class="card-text"><strong>Sofia Lopes da Silva</strong></p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Depoimento 4 -->
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="Imagens/Gustavo.jpg" class="card-img-top" alt="Foto do Depoimento 4">
+                    <div class="card-body">
+                        <p class="card-text">Excelentes profissionais, excelente site, perfeito.</p>
+                        <p class="card-text"><strong>Gustavo Pellá Bazzanella</strong></p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Depoimento 5 -->
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="Imagens/Otávio.jpg" class="card-img-top" alt="Foto do Depoimento 5">
+                    <div class="card-body">
+                        <p class="card-text">Gostei muito do atendimento e a forma que não só resolveram o problema, mas também explicaram o que estava acontecendo para que eu pudesse entender.</p>
+                        <p class="card-text"><strong>Otávio Guzzi Guerreiro</strong></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+        
+    
+
+    <!-- Rodapé -->
+    <footer class="bg-dark text-light py-4">
+        <div class="container text-center">
+            <p>&copy; João Pedro Guzzi Guerreiro</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
